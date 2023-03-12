@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/95092d94ea.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <span class="logo"><b style="color: #2599a1;">R</b>imaz.</span>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+             <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Python Full Stack Developer</p>
+            <h1>Hey, I'm <span>Rimaz K</span><br></h1><h4 class="desc">Innovative and optimized solution seeker.</h4><h6 class="descr">Welcome to my corner of the internet <i class="fa-regular fa-face-smile"></i></h6>
+        </div>
+    </div>
+</div>
+<!----------------------about---------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/RIMAZ K.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hi There! I'm Rimaz K .A Full Stack Developer intern, passionate and experienced in <br>coding things from scratch, and bringing ideas to life. I'm a hardworking MSc. graduate <br>in Computer Science having the experience of building web applications with <br>Python / Django / JavaScript / AngularJS / NodeJS / ExpressJS and some other cool <br>libraries and frameworks. I have worked on several projects during my internship which <br>enhanced my skills and experience in full stack development.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Front-end Languages and Frameworks</span><br>Build responsive and interactive user interface in front-end development <br>with the help of HTML/CSS and JavaScript frameworks and libraries.</li>
+                        <li><span>Back-end Technologies and Frameworks</span><br>Build efficient and stable web architecture in back-end  development<br>using C, C++, Django, NodeJS, ExpressJS, etc.</li>
+                        <li><span>Database Management Systems</span><br>Possess knowledge in relational mapping to fetch data from the database <br>like MySQL, Oracle, etc.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2022 - current</span><br><b>Full Stack Developer intern(Python/Django)</b><br>Maxlore Innovations LLP, UL Cyberpark</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020 - 2022</span><br>MSc.Computer Science, University of Calicut</li>
+                        <li><span>2017 - 2020</span><br>BCA, University of Calicut</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>  
+<!-- ---------------------------services----------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Front-end Development</h2>
+                <p>Ensures that the face value of the website stays high through visual enhancements and functional upgrades. The website UI and its services get a unique look and feel, and  focus on making  website aesthetically attractive and more interactive. Delivers dynamic frontend web development to implement visual elements innovatively and find new ways for increasing user-website interactions.</p>
+                <!-- <a href="#">Learn more</a> -->
+            </div>
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Back-end Development</h2>
+                <p>Integrates frontend operations and sync them with server-side web development. The backend services stay primarily focused on making the site work smoothly under extreme conditions, taking care of the web server, web application, and website databases. Develops code that builds accurate communication between the database information and the browser.</p>
+                <!-- <a href="#">Learn more</a> -->
+            </div>
+            <!-- <div>
+                <i class="fa-solid fa-server"></i>
+                <h2>Database Integration</h2>
+                <p>organize and store this information through DMS tools. Retrieving data from these database management platforms becomes a whole lot easier. Your data storage operations, access control, and security practices are also managed concurrently. Full stack developers also adopt content management systems to support the collection and management of website data. Our CMS tools offer technologies that help users access your website information via various digital mediums.</p>
+                <a href="#">Learn more</a>
+            </div> -->
+        </div>
+    </div>
+</div>
+<!-- -----------------------------portfolio--------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.jpg" >
+                <div class="layer">
+                    <h3>Amazon Clone (Front-end)</h3>
+                    <p>A clone of Amazon's e-commerce website created using HTML / CSS and Bootstrap.</p>
+                    <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work2.png"  style="background-color: aliceblue;">
+                <div class="layer">
+                    <h3>Online Shopping Website</h3>
+                    <p>An e-commerce website where consumers can directly buy or sell goods and services, created using Python / Django. This website manage the details of customers, sellers, shopping, selling, products, payment, etc.  </p>
+                    <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work3.jpg">
+                <div class="layer">
+                    <h3>EV Charging Management Website</h3>
+                    <p>A website connecting the users to charge their electric vehicles, developed in Python / Django. This website manage the details of customers, charging stations, slots, booking, payment, etc.</p>
+                    <!-- <a href="#"><i class="fas fa-external-link-alt"></i></a> -->
+                </div>
+            </div>
+        </div>
+        <!-- <a href="#" class="btn">See more</a> -->
+    </div>
+</div>
+<!-- ---------------------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>rimazkallingal@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>+91 6238683135</p>
+                <p><i class="fab fa-linkedin"></i><a class="lk" href="https://www.linkedin.com/in/rimazkallingal?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BCy1LUBeqSHigi8rpAMALAw%3D%3D">linkedin.com/in/rimazkallingal</a></p>
+
+                <a href="images/Rimaz K (4).pdf" download class="btn btn-2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn-2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2023 Rimaz . All rights reserved.</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby3GCS5OEqh2CAP9wkbXmhMRV9VRgR1aRibtnBlFnPeUAoaMQYOBHaj8I3ujzzEXZi8qg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
